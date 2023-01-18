@@ -1,3 +1,5 @@
+using System.Windows.Forms;
+
 namespace Random_szam_generator
 {
     public partial class Form1 : Form
@@ -14,19 +16,22 @@ namespace Random_szam_generator
             {
                 int felso = int.Parse(felso_szam.Text);
                 int also = int.Parse(also_szam.Text);
-                int number = vs.Next(felso, also);
-                szam_generated.Text = number.ToString();
-                if (felso > also)
+                int number = 0;
+            
+               
+                if (felso < also)
                 {
-                    erorr_text.Text = "Felsõ érték nem lehet kissebb, mint a alsó!";
+                    number = vs.Next(felso, also);
+                    szam_generated.Text = number.ToString();
                 }
-
+                else {
+                    MessageBox.Show("Az alsó érték nem lehet kisebb, mint a felsõ!");
+                }
+                
             } catch (Exception hiba)
             {
-                erorr_text.Text = "Nem megfeleõ használat!";
-            }
-
-           
+                MessageBox.Show("Helytelen használat: "+hiba);
+            }     
         }
     }
 }

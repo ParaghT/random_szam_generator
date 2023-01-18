@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\parag\\OneDrive\\Asztali gép\\c# projects\\Random_szam_generator\\Random_szam_generator\\Random_szam_generator.csproj",
+      "projectUniqueName": "C:\\Users\\parag\\OneDrive\\Asztali gép\\MEGA\\c#\\Random_szam_generator\\Random_szam_generator\\Random_szam_generator.csproj",
       "projectName": "Random_szam_generator",
-      "projectPath": "C:\\Users\\parag\\OneDrive\\Asztali gép\\c# projects\\Random_szam_generator\\Random_szam_generator\\Random_szam_generator.csproj",
+      "projectPath": "C:\\Users\\parag\\OneDrive\\Asztali gép\\MEGA\\c#\\Random_szam_generator\\Random_szam_generator\\Random_szam_generator.csproj",
       "packagesPath": "C:\\Users\\parag\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\parag\\OneDrive\\Asztali gép\\c# projects\\Random_szam_generator\\Random_szam_generator\\obj\\",
+      "outputPath": "C:\\Users\\parag\\OneDrive\\Asztali gép\\MEGA\\c#\\Random_szam_generator\\Random_szam_generator\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\parag\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -64,7 +64,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
